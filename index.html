@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="fix">
+        <label for="uploads" id="uploadslabel"><img src="img/camera.svg" alt=""></label>
+        <input type="file" id="uploads" accept="image/*" >
+    <div class="kutu"></div>
+    </div>
+   <form action="">
+    <div class="form-row">
+    <label for="text">Kullanıcı Adı</label>
+    <input type="text" name="aaa" id="text" required placeholder="Deniz Türk">
+    </div>
+
+    <div class="form-row">
+        <label for="tel">Telefon</label>
+        <input type="tel" id="tel" required placeholder="Deniz Türk" > 
+    </div>
+    <div class="form-row">
+        <label for="email">E-Posta</label>
+        <input type="email" id="email" required placeholder="Deniz Türk">
+    </div>
+    <div class="form-row">
+        <label for="mesaj">Mesaj</label>
+        <textarea id="mesaj" rows="8"></textarea>
+    </div>
+        <div class="form-row">
+            <label for="sehir">Şehir</label>
+            <select id="" id="sehir">
+                <option value="">Seçiniz</option>
+                <option value="">İstanbul</option>
+                <option value="">İzmir</option>
+                <option value="">Kocaeli</option>
+            </select>
+            
+            
+        </div>
+    <div class="radio-container">
+        <p>Favori Renk</p>
+        <label><input type="radio" id="renk" name="renk">Kırmızı</label>
+        <label><input type="radio" id="renk" name="renk">Yeşil</label>
+        <label><input type="radio" id="renk" name="renk">Mavi</label>
+    </div>
+    <div class="form-row">
+        <button type="reset">Sıfırla</button>
+        <button type="submit">Gönder</button>
+    </div>
+    
+</form>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+}
+input[type="text"],input[type="tel"],input[type="email"], select,button, textarea{
+    width: 100%;
+    border-radius: 5px;
+    height: 42px;
+    border: 1px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: inherit;
+    font-family: inherit;   
+    background-color: #fff;
+}
+.fix #uploads {
+    display: none;
+}
+.fix #uploadslabel{
+    background-color: rgb(68, 176,255);
+    border-radius: 14px;
+    padding: 4px 5px 4px 5px;
+    position: absolute;
+    width: 18px;
+    height: 190px;
+    margin-left: 96.5%;
+}
+.fix #uploadslabel:hover{
+    border: 1px solid rgb(68, 176,255);
+    background-color:white;
+    cursor: pointer;
+}
+.fix #uploadslabel img{
+    font-size: 10px;
+    margin-top: 8em;
+}
+.fix{
+    padding-right: 60px;
+    padding-bottom: -935px;  
+}
+.kutu{
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: url(img/user.jpg) no-repeat;
+    text-align: center;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+select::placeholder,
+textarea::placeholder{
+   color: #afafaf;
+}
+form{
+    width: 290px;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.form-row{
+    margin-bottom: 20px;
+}
+.form-row label{
+    display: block;
+    margin-bottom: 6px;
+}
+textarea{
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 42px;
+    min-width: 290px;
+    max-height: 200px;
+    resize: vertical;
+}
+select{
+   -webkit-appearance: none;
+   background-image: url("img/down-arrow.svg");
+   background-repeat: no-repeat;
+   background-position: 295px center;
+}
+.form-row select{
+    width: 320px;
+}
+.radio-container label + label{
+    margin-left: 25px;
+}
+button{
+    margin-top: 25px;
+    display:inline-block;
+    width: auto;
+    border: 0;
+    background-color: #eee;
+}
+button[type="submit"]{
+     margin-left: 25px;
+        color: white;
+        background-color: rgb(68, 176,255);
+}
+button[type="submit"]:hover{
+    color: rgb(68, 176,255);
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(68, 176,255);
+}
+button[type="reset"]:hover{
+    border: 1px solid #afafaf;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.fix .kutu:hover{
+    border: 2px solid rgb(68, 176,255);
+}
